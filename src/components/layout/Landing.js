@@ -12,10 +12,13 @@ export const Landing = () => {
             from other developers
           </p>
           <div className='buttons'>
-            <Link to='/register' className='btn btn-light'></Link>
-            Sign Up
-            <Link to='/login' className='btn btn-light'></Link>
-            Login
+            <Link to='/register' className='btn btn-light'>
+              Sign Up
+            </Link>
+
+            <Link to='/login' className='btn btn-light'>
+              Login
+            </Link>
           </div>
         </div>
       </div>
