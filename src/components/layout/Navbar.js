@@ -5,13 +5,13 @@ export const Navbar = () => {
   return (
     <nav className='navbar bg-dark'>
       <h1>
-        <Link to='/'>
-          <i className='fas fa-code' /> DevConnector
+        <Link to='/' className='fas fa-code'>
+          Seatmap
         </Link>
       </h1>
       <ul>
         <li>
-          <Link to='/profiles'>Developers</Link>
+          <Link to='/profiles'>Free seats</Link>
         </li>
         <li>
           <Link to='/register'>Register</Link>
